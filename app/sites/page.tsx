@@ -13,19 +13,19 @@ export default function Sites() {
           <div className="site-images">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=750w"
-              alt="H4H volunteers at Grace Marketplace"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/grace-Ji7hNFSPWKZUZeuZFezhwPXDhhQuIW.jpeg"
+              alt="Grace Marketplace facility entrance sign showing Dorm, Veteran Dorm, Showers, and Pavilion"
               className="full-width"
             />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=750w"
-              alt="Grace Marketplace group photo"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20260228_111720_E59E50.JPEG-Sl5xgKUqyTLhHiO5htZp6StXY6ibr9.jpeg"
+              alt="Six H4H GNV volunteers in gray shirts standing outside Grace Marketplace holding Trader Joe's bags"
             />
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=750w"
-              alt="BP screening at Grace Marketplace"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20260214_172242_E2EAFD.JPEG-qX5qG0Kl6Cbm9rTBzpwRLkX3BDtIgq.jpeg"
+              alt="H4H volunteer in purple gloves performing blood pressure screening on a community member outdoors at Grace Marketplace"
             />
           </div>
           <div className="site-text">
