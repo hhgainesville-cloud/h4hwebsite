@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 110" fill="none">
+  <!-- Heart body -->
+  <path d="M60 98 C60 98 8 62 8 33 C8 18 19 8 33 8 C42 8 50 13 56 21 C58 24 60 27 60 27 C60 27 62 24 64 21 C70 13 78 8 87 8 C101 8 112 18 112 33 C112 62 60 98 60 98Z" fill="#8B1010"/>
+  <!-- Stethoscope band across upper right -->
+  <path d="M55 22 Q85 15 105 35" stroke="#1a1a1a" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- Stethoscope tube from lower left -->
+  <path d="M28 55 Q28 38 40 28" stroke="#888" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Stethoscope chest piece -->
+  <circle cx="27" cy="60" r="9" fill="#777" stroke="#555" stroke-width="1.5"/>
+  <circle cx="27" cy="60" r="4" fill="#999"/>
+</svg>
