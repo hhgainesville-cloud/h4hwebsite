@@ -370,8 +370,9 @@ li { margin-bottom: 0.4em; }
 .donate-content p { color: var(--mid); margin-bottom: 36px; }
 
 /* ── SITES PAGE ── */
-.sites-hero { background: var(--dark); color: var(--white); padding: 80px 64px 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
-.sites-hero h1 { font-family: var(--serif); font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 600; font-style: italic; color: var(--red); line-height: 1.1; }
+.sites-hero { background: var(--dark); color: var(--white); padding: 80px 64px 60px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_E9FB2A.JPEG-6IOSf0lmlkAQzEPseQlB0MZVgJJlew.jpeg'); background-size: cover; background-position: center; position: relative; }
+.sites-hero::before { content: ''; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5); }
+.sites-hero h1 { font-family: var(--serif); font-size: clamp(2.4rem, 5vw, 4rem); font-weight: 600; font-style: italic; color: var(--red); line-height: 1.1; position: relative; z-index: 1; }
 .site-block { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; padding: 80px 0; border-bottom: 1px solid var(--border); }
 .site-block:last-child { border-bottom: none; }
 .site-images { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
