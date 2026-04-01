@@ -30,8 +30,8 @@ export default function About() {
         <div>
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
-            alt="H4H members doing blood pressure screening outdoors"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_E3D883.JPEG-1pQIftm90WzVmFs5Wz5UyfoIFLMOQa.jpeg"
+            alt="Two H4H volunteers performing a blood pressure screening outdoors near the Battle of Gainesville marker"
             style={{ width: '100%', borderRadius: 4, objectFit: 'cover', aspectRatio: '4/5' }}
           />
         </div>
