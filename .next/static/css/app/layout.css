@@ -292,6 +292,19 @@ li { margin-bottom: 0.4em; }
 .event-text p strong { color: #fff; }
 .event-text p em { font-style: italic; }
 .event-img img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+.event-img--placeholder {
+  aspect-ratio: 4/3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 4px;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
 
 /* ── MEMBERS ── */
 .members-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); grid-gap: 32px; gap: 32px; margin-top: 48px; }

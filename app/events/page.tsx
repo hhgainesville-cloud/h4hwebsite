@@ -73,6 +73,74 @@ export default function Events() {
             />
           </div>
         </div>
+
+        {/* Hygiene Kit Assemblies */}
+        <div className="event-block">
+          <div className="event-text">
+            <h2>Hygiene Kit Assemblies</h2>
+            <p>
+              Hygiene kit assemblies bring volunteers together to pack essential personal
+              care items — such as soap, toothbrushes, toothpaste, and other hygiene
+              supplies — into kits that are distributed to underserved community members.
+              These events are a hands-on way to directly support the health and dignity
+              of those in need while fostering teamwork and community spirit among H4H members.
+            </p>
+          </div>
+          <div className="event-img event-img--placeholder">
+            <span>Hygiene Kit Assembly</span>
+          </div>
+        </div>
+
+        {/* Socials */}
+        <div className="event-block reverse">
+          <div className="event-text">
+            <h2>Socials</h2>
+            <p>
+              H4H socials are fun, low-key gatherings where members can connect, unwind,
+              and build friendships outside of service events. From game nights to casual
+              hangouts, socials strengthen our community and keep the H4H family close-knit.
+              They are a great way for new members to get to know the organization and for
+              returning members to reconnect.
+            </p>
+          </div>
+          <div className="event-img event-img--placeholder">
+            <span>Socials</span>
+          </div>
+        </div>
+
+        {/* Partnering with Other Orgs */}
+        <div className="event-block">
+          <div className="event-text">
+            <h2>Partnering with Other Orgs</h2>
+            <p>
+              H4H Gainesville actively collaborates with other student organizations and
+              community groups to broaden our impact. By joining forces with like-minded
+              organizations, we are able to reach more people, share resources, and create
+              larger-scale service opportunities. These partnerships reflect our commitment
+              to collective action and community-wide health advocacy.
+            </p>
+          </div>
+          <div className="event-img event-img--placeholder">
+            <span>Partnerships</span>
+          </div>
+        </div>
+
+        {/* Fundraising */}
+        <div className="event-block reverse">
+          <div className="event-text">
+            <h2>Fundraising</h2>
+            <p>
+              Fundraising events help H4H Gainesville sustain and grow our programs by
+              raising money for supplies, training, and community initiatives. From bake
+              sales to donation drives, our fundraisers are creative, community-oriented,
+              and open to everyone. Every dollar raised goes directly toward supporting
+              the health and well-being of Gainesville residents.
+            </p>
+          </div>
+          <div className="event-img event-img--placeholder">
+            <span>Fundraising</span>
+          </div>
+        </div>
       </div>
     </div>
   );
