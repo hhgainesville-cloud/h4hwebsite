@@ -46,8 +46,8 @@ export default function Events() {
           <div className="event-img">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
-              alt="Volunteer performing blood pressure screening"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250919_160453_E8392E.JPEG-LlgYM6a9NtXZW97ui1h8FsNBrqWkcI.jpeg"
+              alt="H4H volunteer performing health screening on a community member"
             />
           </div>
         </div>
