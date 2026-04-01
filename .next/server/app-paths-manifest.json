@@ -1,6 +1,5 @@
 {
   "/events/page": "app/events/page.js",
-  "/about/page": "app/about/page.js",
   "/event-dates/page": "app/event-dates/page.js",
   "/sites/page": "app/sites/page.js",
   "/members/page": "app/members/page.js",

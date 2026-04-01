@@ -86,8 +86,12 @@ export default function Events() {
               events to promote hygiene and overall well-being.
             </p>
           </div>
-          <div className="event-img event-img--placeholder">
-            <span>Hygiene Kit Assembly</span>
+          <div className="event-img">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251029_190038_E7E1A9.JPEG-nkXrQT6AUnDmqfQjqD1iFj7EtSIbEh.jpeg"
+              alt="H4H volunteers assembling hygiene kits around long tables in a campus room"
+            />
           </div>
         </div>
 
