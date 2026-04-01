@@ -46,8 +46,8 @@ export default function Events() {
           <div className="event-img">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
-              alt="Volunteer performing blood pressure screening"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250919_160453_E8392E.JPEG-LlgYM6a9NtXZW97ui1h8FsNBrqWkcI.jpeg"
+              alt="H4H volunteer performing health screening on a community member"
             />
           </div>
         </div>
@@ -68,8 +68,105 @@ export default function Events() {
           <div className="event-img">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
-              alt="H4H members at Health Education Screening event"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_E7DC72.JPEG-4oaGL2kHhzWDO0VvgiIMIWedJ9S7aF.jpeg"
+              alt="H4H volunteers in gray shirts posing outdoors at a health screening event near the Battle of Gainesville marker"
+            />
+          </div>
+        </div>
+
+        {/* Hygiene Kit Assemblies */}
+        <div className="event-block">
+          <div className="event-text">
+            <h2>Hygiene Kit Assemblies</h2>
+            <p>
+              Hygiene kit assemblies support the health and dignity of individuals
+              experiencing homelessness. Volunteers assemble kits with essential items
+              such as soap, toothpaste, toothbrushes, and hand sanitizer, which are then
+              distributed during health education screenings and blood pressure screening
+              events to promote hygiene and overall well-being.
+            </p>
+          </div>
+          <div className="event-img">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251029_190038_E7E1A9.JPEG-nkXrQT6AUnDmqfQjqD1iFj7EtSIbEh.jpeg"
+              alt="H4H volunteers assembling hygiene kits around long tables in a campus room"
+            />
+          </div>
+        </div>
+
+        {/* Socials */}
+        <div className="event-block reverse">
+          <div className="event-text">
+            <h2>Socials</h2>
+            <p>
+              If you&apos;re interested in meeting other members, come join us at one of
+              our many socials! From Run Clubs and painting pumpkins with kids at St.
+              Francis to relaxing at Plaza with a picnic blanket, our socials are a fun
+              and welcoming way to meet new, like-minded people and build meaningful
+              connections.
+            </p>
+            <p>
+              <strong>**Follow our Instagram and keep an eye out on the Calendar to stay
+              up to date with upcoming socials!</strong>
+            </p>
+          </div>
+          <div className="event-img event-img--grid">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250928_191344_E0ADCD.JPEG-OPforbDSAZvB972c9CAFeWUq4pcwkc.jpeg"
+              alt="Four H4H members relaxing on a picnic blanket at Plaza of the Americas"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_EAFDC9.JPEG-MSaf6v4jauOP67aTObVdam6xcrJUUl.jpeg"
+              alt="Three H4H members smiling and holding tied t-shirt blankets"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20260214_172150_E61328.JPEG-g6RI9noXYADkM2YKQkqgySYab8WgMH.jpeg"
+              alt="Large group of H4H members and community kids gathered together indoors"
+            />
+          </div>
+        </div>
+
+        {/* Partnering with Other Orgs */}
+        <div className="event-block">
+          <div className="event-text">
+            <h2>Partnering with Other Organizations</h2>
+            <p>
+              Aside from HES and BP events, we also partner with other organizations to
+              give back to our community through many different ways such as through food
+              and clothing drives.
+            </p>
+          </div>
+          <div className="event-img">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_E545D9.JPEG-oz6xinqh1vlyzd9DrkoCEbMQCUDE13.jpeg"
+              alt="H4H members and partner organization volunteers posing on a basketball court with crates of food bags ready for distribution"
+            />
+          </div>
+        </div>
+
+        {/* Fundraising */}
+        <div className="event-block reverse">
+          <div className="event-text">
+            <h2>Fundraisers</h2>
+            <p>
+              We host fundraisers and drives throughout the semester to support our
+              outreach efforts. These include bake sales on campus and partnerships with
+              local cafes and restaurants, where a portion of the proceeds is donated to
+              our organization. Funds raised help us purchase supplies for hygiene kits,
+              health screenings, and other resources that we distribute to individuals
+              experiencing homelessness in the Gainesville community.
+            </p>
+          </div>
+          <div className="event-img">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251127_162657_E02AF9.JPEG-O3jVTfPc0WhAd4EtAr1uGbtiQTtnwF.jpeg"
+              alt="H4H members standing behind a bake sale table at night on University Ave with baked goods and a colorful sign"
             />
           </div>
         </div>
