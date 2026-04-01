@@ -158,8 +158,12 @@ export default function Events() {
               experiencing homelessness in the Gainesville community.
             </p>
           </div>
-          <div className="event-img event-img--placeholder">
-            <span>Fundraising</span>
+          <div className="event-img">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251127_162657_E02AF9.JPEG-O3jVTfPc0WhAd4EtAr1uGbtiQTtnwF.jpeg"
+              alt="H4H members standing behind a bake sale table at night on University Ave with baked goods and a colorful sign"
+            />
           </div>
         </div>
       </div>
