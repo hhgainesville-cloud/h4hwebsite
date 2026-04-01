@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Events — Hearts4Homeless Gainesville</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    body { background: #111; color: #fff; }
+    .nav { background: #111; border-bottom-color: rgba(255,255,255,0.1); }
+    .nav-brand, .nav-links a { color: #fff; }
+    .nav-dropdown { background: #1a1a1a; border-color: rgba(255,255,255,0.1); }
+    .nav-dropdown li a:hover { background: #222; }
+    .footer { background: #000; }
+
+    .events-hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 120px 64px 80px;
+      text-align: center;
+    }
+    .events-hero h1 {
+      font-family: var(--serif);
+      font-size: clamp(5rem, 12vw, 10rem);
+      font-weight: 600;
+      font-style: italic;
+      color: var(--red);
+      line-height: 1;
+      margin-bottom: 40px;
+    }
+
+    .events-content {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 0 64px 96px;
+    }
+
+    .event-block {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+      padding: 80px 0;
+      border-top: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .event-block.reverse { direction: rtl; }
+    .event-block.reverse > * { direction: ltr; }
+
+    .event-text h2 {
+      font-family: var(--serif);
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 600;
+      font-style: italic;
+      color: var(--red);
+      margin-bottom: 20px;
+    }
+
+    .event-text p {
+      color: rgba(255,255,255,0.75);
+      font-size: 0.95rem;
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+
+    .event-text p strong { color: #fff; }
+    .event-text p em { font-style: italic; }
+
+    .event-img img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+
+    @media (max-width: 768px) {
+      .events-hero { padding: 80px 24px 60px; }
+      .events-content { padding: 0 24px 60px; }
+      .event-block { grid-template-columns: 1fr; gap: 32px; }
+      .event-block.reverse { direction: ltr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-brand">Hearts4Homeless Gainesville</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li class="has-dropdown">
+        <a href="about.html">About Us</a>
+        <ul class="nav-dropdown">
+          <li><a href="about.html">Who We Are</a></li>
+          <li><a href="executive-board.html">Executive Board</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="events.html" class="active">Get Involved</a>
+        <ul class="nav-dropdown">
+          <li><a href="events.html">Events</a></li>
+          <li><a href="event-dates.html">Event Dates</a></li>
+          <li><a href="sites.html">Sites</a></li>
+        </ul>
+      </li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html">Donate</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="events-hero">
+    <h1>Events</h1>
+    <a href="event-dates.html" class="btn btn-outline" style="border-color:#fff;color:#fff;">Calendar</a>
+  </div>
+
+  <!-- EVENT BLOCKS -->
+  <div class="events-content">
+
+    <!-- Blood Pressure Screenings -->
+    <div class="event-block">
+      <div class="event-text">
+        <h2>Blood Pressure Screenings</h2>
+        <p>
+          Blood pressure screenings provide community members with free
+          blood pressure checks and education about cardiovascular health.
+          Volunteers measure blood pressure, calculate BMI, explain what the
+          results mean, and share information about healthy lifestyle habits
+          and local healthcare resources. These events raise awareness about
+          hypertension and encourage early detection.
+        </p>
+        <p>
+          <strong>**Training for BP events happen regularly, so be on the
+          lookout for those on the Calendar!</strong>
+        </p>
+        <p>
+          **BP training is <em>required</em> to be able to attend a BP event.
+          Must be <strong>renewed every year</strong>!
+        </p>
+      </div>
+      <div class="event-img">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
+          alt="Volunteer performing blood pressure screening"
+        />
+      </div>
+    </div>
+
+    <!-- Health Education Screenings -->
+    <div class="event-block reverse">
+      <div class="event-text">
+        <h2>Health Education Screenings</h2>
+        <p>
+          Health education screenings help connect community members with
+          important healthcare information and resources. Volunteers provide
+          education about preventive health and distribute printed sheets with
+          information on accessible local primary care, dental services, and
+          animal care resources. These screenings help increase awareness and
+          guide individuals toward better health decisions.
+        </p>
+      </div>
+      <div class="event-img">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
+          alt="H4H members at Health Education Screening event"
+        />
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Hearts4Homeless Gainesville</div>
+        <p class="footer-tagline">Promoting heart health among the homeless population through education, screenings, and meaningful volunteer opportunities.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Get Involved</a></li>
+          <li><a href="members.html">Members</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>University of Florida<br>Gainesville, FL 32611</p>
+        <p style="margin-top:12px;"><a href="mailto:hhgainesville@gmail.com">hhgainesville@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Hearts4Homeless Gainesville &middot; University of Florida</span>
+      <span>Gainesville, FL 32611</span>
+    </div>
+  </footer>
+
+  <script src="../js/nav.js"></script>
+</body>
+</html>
