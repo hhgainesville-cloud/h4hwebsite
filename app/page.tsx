@@ -22,8 +22,8 @@ export default function Home() {
         <div className="hero-image">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://images.squarespace-cdn.com/content/v1/69ab4c8428b2286bdc334a79/2b12c7f8-cda8-4bae-9bee-53445491676f/20251204_160502_EE3FAD.JPEG?format=1000w"
-            alt="H4H members at UF event with Albert the Gator mascot"
+            src="/images/hero-group.jpg"
+            alt="H4H members and community members gathered together at a group event"
           />
         </div>
       </section>
