@@ -287,6 +287,20 @@ li { margin-bottom: 0.4em; }
 .event-text p strong { color: #fff; }
 .event-text p em { font-style: italic; }
 .event-img img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: 4px; }
+.event-img--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.event-img--grid img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.event-img--grid img:first-child {
+  grid-column: 1 / -1;
+}
 .event-img--placeholder {
   aspect-ratio: 4/3;
   display: flex;

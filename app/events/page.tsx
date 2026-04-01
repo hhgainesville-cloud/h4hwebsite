@@ -111,8 +111,22 @@ export default function Events() {
               up to date with upcoming socials!</strong>
             </p>
           </div>
-          <div className="event-img event-img--placeholder">
-            <span>Socials</span>
+          <div className="event-img event-img--grid">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20250928_191344_E0ADCD.JPEG-OPforbDSAZvB972c9CAFeWUq4pcwkc.jpeg"
+              alt="Four H4H members relaxing on a picnic blanket at Plaza of the Americas"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_EAFDC9.JPEG-MSaf6v4jauOP67aTObVdam6xcrJUUl.jpeg"
+              alt="Three H4H members smiling and holding tied t-shirt blankets"
+            />
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20260214_172150_E61328.JPEG-g6RI9noXYADkM2YKQkqgySYab8WgMH.jpeg"
+              alt="Large group of H4H members and community kids gathered together indoors"
+            />
           </div>
         </div>
 
