@@ -140,8 +140,12 @@ export default function Events() {
               and clothing drives.
             </p>
           </div>
-          <div className="event-img event-img--placeholder">
-            <span>Partnerships</span>
+          <div className="event-img">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_E545D9.JPEG-oz6xinqh1vlyzd9DrkoCEbMQCUDE13.jpeg"
+              alt="H4H members and partner organization volunteers posing on a basketball court with crates of food bags ready for distribution"
+            />
           </div>
         </div>
 
