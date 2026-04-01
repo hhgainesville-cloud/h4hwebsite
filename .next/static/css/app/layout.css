@@ -242,6 +242,16 @@ li { margin-bottom: 0.4em; }
   justify-content: center;
   padding: 120px 64px 80px;
   text-align: center;
+  background-image: url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/20251204_160444_E9FB2A.JPEG-skkErGIsCZ9IYablJDb8psBqdWXY2X.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.events-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
 }
 .events-hero h1 {
   font-family: var(--serif);
@@ -251,6 +261,12 @@ li { margin-bottom: 0.4em; }
   color: var(--red);
   line-height: 1;
   margin-bottom: 40px;
+  position: relative;
+  z-index: 1;
+}
+.events-hero .btn {
+  position: relative;
+  z-index: 1;
 }
 .events-content { max-width: var(--max); margin: 0 auto; padding: 0 64px 96px; }
 .event-block {
