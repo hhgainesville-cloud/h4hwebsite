@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Executive Board — Hearts4Homeless Gainesville</title>
+  <link rel="stylesheet" href="../styles.css" />
+  <style>
+    .board-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 40px;
+      margin-top: 16px;
+    }
+    .board-card {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .board-avatar {
+      width: 100%;
+      aspect-ratio: 1;
+      background: #ddd6d0;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .board-avatar svg { opacity: 0.3; }
+    .board-card h3 {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--dark);
+      margin: 0;
+    }
+    .board-card p {
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--light);
+      margin: 0;
+    }
+    .board-note {
+      background: #e8e2dc;
+      padding: 24px 28px;
+      border-radius: 4px;
+      margin-bottom: 56px;
+      max-width: 560px;
+    }
+    .board-note p {
+      font-size: 0.9rem;
+      color: var(--mid);
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-brand">Hearts4Homeless Gainesville</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li class="has-dropdown">
+        <a href="about.html" class="active">About Us</a>
+        <ul class="nav-dropdown">
+          <li><a href="about.html">Who We Are</a></li>
+          <li><a href="executive-board.html">Executive Board</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="events.html">Get Involved</a>
+        <ul class="nav-dropdown">
+          <li><a href="events.html">Events</a></li>
+          <li><a href="event-dates.html">Event Dates</a></li>
+          <li><a href="sites.html">Sites</a></li>
+        </ul>
+      </li>
+      <li><a href="members.html">Members</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="donate.html">Donate</a></li>
+    </ul>
+  </nav>
+
+  <div class="section">
+    <h2 class="section-title" style="margin-bottom: 12px;">Executive Board</h2>
+    <p class="section-subtitle" style="margin-bottom: 40px;">Meet the team leading Hearts4Homeless Gainesville.</p>
+
+    <div class="board-note">
+      <p>Board member profiles will appear here. Contact <a href="mailto:hhgainesville@gmail.com" style="color:var(--red);">hhgainesville@gmail.com</a> for more information.</p>
+    </div>
+
+    <div class="board-grid">
+      <!-- Add board members here — replace with real names, titles, and photos -->
+      <div class="board-card">
+        <div class="board-avatar">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <h3>President</h3>
+        <p>Executive Board</p>
+      </div>
+      <div class="board-card">
+        <div class="board-avatar">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <h3>Vice President</h3>
+        <p>Executive Board</p>
+      </div>
+      <div class="board-card">
+        <div class="board-avatar">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <h3>Secretary</h3>
+        <p>Executive Board</p>
+      </div>
+      <div class="board-card">
+        <div class="board-avatar">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
+          </svg>
+        </div>
+        <h3>Treasurer</h3>
+        <p>Executive Board</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">Hearts4Homeless Gainesville</div>
+        <p class="footer-tagline">Promoting heart health among the homeless population through education, screenings, and meaningful volunteer opportunities.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="events.html">Get Involved</a></li>
+          <li><a href="members.html">Members</a></li>
+          <li><a href="join.html">Join</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>More</h4>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html">Donate</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>University of Florida<br>Gainesville, FL 32611</p>
+        <p style="margin-top:12px;"><a href="mailto:hhgainesville@gmail.com">hhgainesville@gmail.com</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Hearts4Homeless Gainesville &middot; University of Florida</span>
+      <span>Gainesville, FL 32611</span>
+    </div>
+  </footer>
+
+  <script src="../js/nav.js"></script>
+</body>
+</html>
